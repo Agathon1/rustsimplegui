@@ -15,6 +15,8 @@ Future plans:
 
 - [ ] Add more functionality. (Custom colours, etc)
 
+- [ ] Prepare crate for cargo
+
 ## How to use
 Here's the [pysimplegui example](https://github.com/PySimpleGUI/PySimpleGUI#anatomy-of-a-simple-pysimplegui-program) translated to rust:
 ```rust
