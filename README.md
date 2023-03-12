@@ -53,4 +53,4 @@ rsg_core - core data structures shared by all backends, and user.
 
 rustsimplegui - interface between backends <-> user.
 
-examples - How to use.
+example - How to use.
