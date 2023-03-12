@@ -1,0 +1,17 @@
+[package]
+name = "rstk"
+version = "0.1.0"
+authors = ["Peter Lane <peterlane@gmx.com>"]
+edition = "2018"
+
+categories = ["gui"]
+description = "A Rust binding for the Tk graphics toolkit."
+documentation = "https://docs.rs/rstk/"
+homepage = "https://peterlane.netlify.app/rstk/"
+keywords = ["gui", "tk"]
+license = "MIT"
+readme = "README.md"
+repository = "https://notabug.org/peterlane/rstk/"
+
+[dependencies]
+once_cell = "1.7.2"
