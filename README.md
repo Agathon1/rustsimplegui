@@ -15,6 +15,26 @@ Future plans:
 
 - [ ] Add more functionality. (Custom colours, etc)
 
+## How to use
+Here's the [pysimplegui example](https://github.com/PySimpleGUI/PySimpleGUI#anatomy-of-a-simple-pysimplegui-program) translated to rust:
+```rust
+use rustsimplegui as sg;
+
+fn main() {
+	let layout = vec![ vec![sg::text("What's your name?")],
+                           vec![sg::input()],
+                           vec![sg::button("Ok")] ];
+
+	let window = sg::window("Window Title", layout);
+
+	let (_event, values) = window.read();
+
+	println!("Hello {}! Thanks for trying RustSimpleGUI", values[0]);
+
+	window.close();
+}
+```
+
 ---
 
 ### Repo Index:
