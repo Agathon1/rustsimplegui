@@ -34,6 +34,10 @@ fn main() {
 	window.close();
 }
 ```
+Yields:
+
+![image](https://user-images.githubusercontent.com/70473827/224526962-4be9cf11-4219-4056-9f4d-e1b5711f462c.png)
+
 
 ---
 
