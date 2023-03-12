@@ -1,10 +1,9 @@
 [package]
-name = "tst_rustgui"
+name = "example"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-once_cell = "1.17.1"
 rustsimplegui = { path = "../rustsimplegui", features = ["rsg_tk"]}
